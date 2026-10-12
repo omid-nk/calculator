@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-michroma: var(--font-michroma);
+
+  --color-background: #09090c;
+  --color-surface: #111014;
+  --color-glow: #e11d48;
+}
+
+@utility ambient-background {
+  background: radial-gradient(
+    ellipse at 50% 45%,
+    #252027 0%,
+    var(--color-surface) 45%,
+    #070709 100%
+  );
+}
+
+@utility ambient-grid {
+  background-image:
+    linear-gradient(rgb(255 255 255 / 30%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 30%) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
