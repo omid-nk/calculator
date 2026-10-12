@@ -33,7 +33,7 @@ Make sure you have [Node.js](https://nodejs.org/) and npm installed.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/modern-calculator.git
+git clone https://github.com/omid-nk/modern-calculator.git
 ```
 
 Navigate to the project directory:
